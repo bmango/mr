@@ -1,0 +1,92 @@
+[12-Dec-2025 17:26:52 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.3.0". You are running 7.4.33. in /home/moneyreb/public_html/dir/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/moneyreb/public_html/dir/vendor/composer/autoload_real.php(25): require()
+#1 /home/moneyreb/public_html/dir/vendor/autoload.php(22): ComposerAutoloaderInit9d559ab354f63dc7e9a3fc1a03ad7d46::getLoader()
+#2 /home/moneyreb/public_html/dir/web/autoload.php(15): require('/home/moneyreb/...')
+#3 /home/moneyreb/public_html/dir/web/index.php(14): require_once('/home/moneyreb/...')
+#4 {main}
+  thrown in /home/moneyreb/public_html/dir/vendor/composer/platform_check.php on line 22
+[12-Dec-2025 17:28:34 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:28:36 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:28:38 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:28:39 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:28:40 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:28:40 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:23 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:24 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:25 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:26 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:27 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:27 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:28 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:30 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:30 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:30 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:30 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 17:29:30 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:09:57 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.3.0". You are running 7.4.33. in /home/moneyreb/public_html/dir/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/moneyreb/public_html/dir/vendor/composer/autoload_real.php(25): require()
+#1 /home/moneyreb/public_html/dir/vendor/autoload.php(22): ComposerAutoloaderInit9d559ab354f63dc7e9a3fc1a03ad7d46::getLoader()
+#2 /home/moneyreb/public_html/dir/web/autoload.php(15): require('/home/moneyreb/...')
+#3 /home/moneyreb/public_html/dir/web/index.php(14): require_once('/home/moneyreb/...')
+#4 {main}
+  thrown in /home/moneyreb/public_html/dir/vendor/composer/platform_check.php on line 22
+[12-Dec-2025 20:10:13 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:23 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:23 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:24 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:26 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:28 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:28 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:29 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:29 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:29 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:50 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:52 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:10:59 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:11:12 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:11:12 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:16:52 Europe/London] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.3.0". You are running 7.4.33. in /home/moneyreb/public_html/dir/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/moneyreb/public_html/dir/vendor/composer/autoload_real.php(25): require()
+#1 /home/moneyreb/public_html/dir/vendor/autoload.php(22): ComposerAutoloaderInit9d559ab354f63dc7e9a3fc1a03ad7d46::getLoader()
+#2 /home/moneyreb/public_html/dir/web/autoload.php(15): require('/home/moneyreb/...')
+#3 /home/moneyreb/public_html/dir/web/index.php(14): require_once('/home/moneyreb/...')
+#4 {main}
+  thrown in /home/moneyreb/public_html/dir/vendor/composer/platform_check.php on line 22
+[12-Dec-2025 20:17:09 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:32 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:32 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:41 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:42 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:43 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:43 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:44 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:45 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:45 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:48 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:17:58 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:18:03 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:18:03 Europe/London] Uncaught PHP Exception Drupal\Core\Entity\EntityStorageException: "'block' entity with ID 'artisan_starterkit_search_form' already exists." at /home/moneyreb/public_html/dir/web/core/lib/Drupal/Core/Entity/EntityStorageBase.php line 520
+[12-Dec-2025 20:18:20 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:33:15 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:33:15 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:33:46 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:34:15 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:34:15 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:34:15 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:34:46 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:34:54 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:34:54 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:34:55 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:34:55 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:34:55 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:35:31 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:35:35 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:35:35 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:35:35 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:36:06 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:36:06 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[12-Dec-2025 20:36:13 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0
+[13-Dec-2025 09:34:54 Europe/London] PHP Deprecated:  PHP Request Shutdown: assert.active INI setting is deprecated in Unknown on line 0

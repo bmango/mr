@@ -1,0 +1,101 @@
+# Based on https://github.com/github/gitignore/blob/b1ffcdbb332cf53a478f08f0db285e12c7f3d281/Drupal.gitignore
+
+# CiviCRM folders
+/web/sites/default/files/civicrm/ConfigAndLog/*
+Config.IDS.ini
+/web/sites/default/files/civicrm/templates_c/*
+/web/sites/default/files/civicrm/persist/*
+/web/sites/default/files/civicrm/upload/*
+/web/sites/default/files/civicrm/custom/*
+
+# Contrib modules will be in the composer.json file
+/web/modules/contrib/*
+/web/themes/contrib/*
+/web/libraries/*
+!/web/libraries/fitvids
+
+# Issues updating fpa for D11 so need to add the info.yml file to git
+!/web/modules/contrib/fpa/
+/web/modules/contrib/fpa/*
+!/web/modules/contrib/fpa/fpa.info.yml
+
+!/web/modules/contrib/google_analytics/
+/web/modules/contrib/google_analytics/*
+!/web/modules/contrib/google_analytics/google_analytics.info.yml
+
+!/web/modules/contrib/paragraph_view_mode/
+/web/modules/contrib/paragraph_view_mode/*
+!/web/modules/contrib/paragraph_view_mode/paragraph_view_mode.info.yml
+
+!/web/modules/contrib/riddler/
+/web/modules/contrib/riddler/*
+!/web/modules/contrib/riddler/riddler.info.yml
+
+# Ignore configuration files that may contain sensitive information
+/web/sites/*/*settings*.php
+/web/sites/*/*services*.yml
+!/web/sites/default/settings.php
+
+# ddev
+.ddev
+.idea
+*.Identifier
+cron*.sh
+
+# Ignore paths that may contain user-generated content
+/web/sites/*/public
+/web/sites/*/private
+/web/sites/*/files-public
+/web/sites/*/files-private
+/web/private:
+
+# Ignore paths that may contain temporary files
+/web/sites/*/translations
+/web/sites/*/tmp
+/web/sites/*/cache
+
+# Ignore drupal core (if not versioning drupal sources)
+/web/vendor
+/web/core
+/web/modules/README.txt
+/web/profiles/README.txt
+/web/sites/default/files/php/twig
+/web/sites/development.services.yml
+/web/sites/example.settings.local.php
+/web/sites/example.sites.php
+/web/sites/README.txt
+/web/themes/README.txt
+/web/.csslintrc
+/web/.editorconfig
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.gitattributes
+/web/.htaccess
+/web/.ht.router.php
+/web/autoload.php
+/web/composer.json
+/web/composer.lock
+/web/example.gitignore
+/web/index.php
+/web/INSTALL.txt
+/web/LICENSE.txt
+/web/README.txt
+/web/robots.txt
+/web/update.php
+/web/web.config
+
+# Ignore vendor dependencies and scripts
+/vendor
+/composer.phar
+/composer
+/robo.phar
+/robo
+/drush.phar
+/drush
+/drupal.phar
+/drupal
+
+# Ignore OS specific files
+.DS_Store
+
+/web/google*html
