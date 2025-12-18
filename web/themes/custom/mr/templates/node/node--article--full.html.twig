@@ -1,0 +1,14 @@
+{#
+/**
+ * @file
+ * Template for a node article full.
+ */
+#}
+{% include 'artisan:article' with {
+  title: node.label,
+  publish_date: date,
+  image: node.hasField('field_image') and not node.get('field_image').isEmpty() ? content.field_image,
+  body: node.hasField('body') and not node.get('body').isEmpty() ? content.body,
+  author: author_name,
+  tags: node.hasField('field_tags') and not node.get('field_tags').isEmpty() ? content.field_tags,
+} %}
