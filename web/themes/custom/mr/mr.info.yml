@@ -8,6 +8,7 @@ dependencies:
   - 'drupal:serialization'
 regions:
   navigation_top: 'Navigation Top'
+  header_top: 'Header Top'
   navigation_start: 'Navigation Start'
   navigation_center: 'Navigation Center'
   navigation_end: 'Navigation End'

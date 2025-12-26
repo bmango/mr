@@ -4,11 +4,20 @@
  * Template for a node article full.
  */
 #}
-{% include 'artisan:article' with {
-  title: node.label,
-  publish_date: date,
-  image: node.hasField('field_image') and not node.get('field_image').isEmpty() ? content.field_image,
-  body: node.hasField('body') and not node.get('body').isEmpty() ? content.body,
-  author: author_name,
-  tags: node.hasField('field_tags') and not node.get('field_tags').isEmpty() ? content.field_tags,
-} %}
+
+{% if content|render|trim is not empty and content['#view_mode'] == 'full' and content['#layout_builder_enabled'] is defined %}
+  {# Layout Builder is enabled — render the full layout content #}
+  {{ content }}
+{% else %}
+  {# Fallback to the default Artisan article layout #}
+  {% include 'artisan:article' with {
+    title: node.label,
+    publish_date: date,
+    image: node.hasField('field_image') and not node.get('field_image').isEmpty() ? content.field_image,
+    body: node.hasField('body') and not node.get('body').isEmpty() ? content.body,
+    author: author_name,
+    tags: node.hasField('field_tags') and not node.get('field_tags').isEmpty() ? content.field_tags,
+  } %}
+{% endif %}
+
+

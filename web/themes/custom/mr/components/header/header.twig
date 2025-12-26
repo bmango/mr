@@ -1,0 +1,34 @@
+{% set classes = [
+  'header',
+]|merge(extra_classes ?: []) %}
+
+{% block header_top %}
+  <div class="text-center site-title tracking-[.75em] text-white bg-black">
+    <h2 class="md:flex justify-evenly flex-row container">
+      <span class="flex-[1_1_0]">MONEY</span> <span class="flex-[1_1_0]"><img class="inline align-top" src="themes/custom/mr/assets/mr-logo.svg" width="40"></span>  <span class="flex-[1_1_0]">REBELLION</span>
+    </h2>
+  {% if header_top %}
+      {{ header_top }}
+  {% endif %}
+  </div>
+{% endblock %}
+
+{% block top %}
+  {% if top %}
+    {% embed 'artisan:header-top' with {
+      header_top_container_extra_classes: ['flex', 'justify-between', 'items-center'],
+      content: top,
+    } only %}
+    {% endembed %}
+  {% endif %}
+{% endblock %}
+
+<header {{ attributes.addClass(classes) }}>
+  {% block content %}
+    {% include 'artisan:drawer' with {
+      drawer_id: 'header-drawer',
+      drawer_content: [content.navigation_start, content.navigation_center, content.navigation_end],
+      drawer_sidebar: [content.navigation_start, content.navigation_center],
+    } only %}
+  {% endblock %}
+</header>

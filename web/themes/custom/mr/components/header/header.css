@@ -1,0 +1,12 @@
+header.header {
+  --header-position: sticky;
+  --header-z-index: 100;
+  --header-background-color: var(--color-base-100);
+  --header-color: var(--color-base-content);
+
+  position: var(--header-position);
+  z-index: var(--header-z-index);
+  background-color: var(--header-background-color);
+  color: var(--header-color);
+  top: var(--drupal-displace-offset-top, 0);
+}

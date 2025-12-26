@@ -1,0 +1,19 @@
+{% set classes = [
+  'header-top',
+]|merge(header_top_extra_classes ?: []) %}
+
+{% set header_top_container_classes = [
+  'container',
+]|merge(header_top_container_extra_classes ?: []) %}
+
+
+<nav {{ attributes.addClass(classes) }}>
+  <div class="{{ header_top_container_classes|join(' ')}}">
+    {{ content }}
+    {% embed 'artisan:theme-switcher' with {
+      light_icon: icon('heroicons', 'sun', {size: 16, aria_labelledby: 'Theme switcher light'}),
+      dark_icon: icon('heroicons', 'moon', {size: 16, aria_labelledby: 'Theme switcher dark'}),
+    } only %}
+    {% endembed %}
+  </div>
+</nav>

@@ -20,7 +20,8 @@
 <div {{ attributes.addClass(classes) }}>
  {% if not distraction_free %}
     {% block header %}
-      {% embed 'artisan:header' with {
+      {% embed 'mr:header' with {
+        header_top: page.header_top,
         top: page.navigation_top,
         content: {
           navigation_start: page.navigation_start,
