@@ -49,7 +49,8 @@
         "drupal/rabbit_hole": "^2.0@beta",
         "drupal/twbstools": "^2.1",
         "drupal/twigsuggest": "^2.0@RC",
-        "drupal/views_fieldsets": "^4.0"
+        "drupal/views_fieldsets": "^4.0",
+        "drush/drush": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
