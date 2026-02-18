@@ -1,0 +1,12 @@
+{#
+/**
+ * @file
+ * Template for a node page full.
+ */
+#}
+{% include 'artisan:article' with {
+  title: node.label,
+  publish_date: date,
+  body: node.hasField('body') and not node.get('body').isEmpty() ? content.body,
+  author: author_name,
+} %}

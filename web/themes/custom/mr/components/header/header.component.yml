@@ -1,0 +1,15 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: Header
+props:
+  type: object
+  properties:
+    extra_classes:
+      title: Header extra classes
+      type: ['array', 'null']
+      items:
+        type: string
+slots:
+  top:
+    title: Header top content
+  content:
+    title: Header content

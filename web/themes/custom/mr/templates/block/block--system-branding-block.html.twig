@@ -1,0 +1,9 @@
+{% embed 'mr:navbar-brand' with {
+  image: site_logo,
+  width: '75px',
+  height: 'auto',
+  alt: elements.content.site_name['#markup'] ~ ' logo',
+  site_name: site_name ?? '',
+  site_slogan: site_slogan ?? '',
+} only %}
+{% endembed %}

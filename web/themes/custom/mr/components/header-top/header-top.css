@@ -1,0 +1,7 @@
+.header-top {
+  --header-top-background-color: var(--color-base-200);
+  --header-top-color: var(--color-base-content);
+
+  background-color: var(--header-top-background-color);
+  color: var(--header-top-color);
+}

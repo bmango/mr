@@ -47,10 +47,13 @@
         "drupal/paragraphs": "^1.19",
         "drupal/pathauto": "^1.11",
         "drupal/rabbit_hole": "^2.0@beta",
+        "drupal/realistic_dummy_content": "^4.0@beta",
+        "drupal/redirect": "^1.12",
         "drupal/twbstools": "^2.1",
         "drupal/twigsuggest": "^2.0@RC",
         "drupal/views_fieldsets": "^4.0",
-        "drush/drush": "*"
+        "drupal/vlsuite": "^3.0@alpha",
+        "drush/drush": "^13.7"
     },
     "conflict": {
         "drupal/drupal": "*"
