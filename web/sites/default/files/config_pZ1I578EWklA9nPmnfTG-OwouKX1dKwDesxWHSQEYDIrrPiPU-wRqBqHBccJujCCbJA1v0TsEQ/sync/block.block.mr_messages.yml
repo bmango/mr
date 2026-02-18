@@ -1,0 +1,22 @@
+uuid: 50f6cbcf-385a-4654-88a7-73b4cb62cbab
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mr
+_core:
+  default_config_hash: AYVEkACkKvwVmcXrxqt8kNkrqyKEkUcOk-ggg-cNKPM
+id: mr_messages
+theme: mr
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

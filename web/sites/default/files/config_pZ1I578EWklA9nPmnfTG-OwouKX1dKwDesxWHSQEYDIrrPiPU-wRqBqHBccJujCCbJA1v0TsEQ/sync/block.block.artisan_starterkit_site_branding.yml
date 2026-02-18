@@ -1,0 +1,25 @@
+uuid: f5bd4455-f232-4442-9322-50482377308c
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - artisan_starterkit
+_core:
+  default_config_hash: srXdGN4RuqgRjCfKI4UYJ6Nwinmcu2elb2C30ya65QM
+id: artisan_starterkit_site_branding
+theme: artisan_starterkit
+region: navigation_start
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

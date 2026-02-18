@@ -1,0 +1,20 @@
+uuid: 5e39478c-1aaf-4002-95ad-cc6a9a27b147
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - mr
+_core:
+  default_config_hash: eJogeqHk-Lds6TtV6EJsQRpVujJf7dYjHzU1AxkrpoU
+id: mr_primary_admin_actions
+theme: mr
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

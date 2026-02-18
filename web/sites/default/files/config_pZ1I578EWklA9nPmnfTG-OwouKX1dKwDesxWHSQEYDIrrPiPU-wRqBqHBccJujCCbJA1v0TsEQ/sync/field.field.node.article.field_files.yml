@@ -1,0 +1,27 @@
+uuid: c9364aa8-be6f-4147-bb44-35c834ed8e8d
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_files
+    - node.type.article
+  module:
+    - file
+id: node.article.field_files
+field_name: field_files
+entity_type: node
+bundle: article
+label: Files
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'txt docx pdf doc xls xlsx rtf odt'
+  max_filesize: '20 MB'
+  description_field: true
+field_type: file

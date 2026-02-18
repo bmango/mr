@@ -1,0 +1,27 @@
+uuid: af4f3007-9c8f-4711-a9f0-03e7829e3acf
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - artisan_starterkit
+_core:
+  default_config_hash: uKSmxvpdmNIsTADrvep3tUKZyvAF4u3T6TjU3IeqnBw
+id: artisan_starterkit_main_menu
+theme: artisan_starterkit
+region: navigation_center
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

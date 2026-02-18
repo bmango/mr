@@ -1,0 +1,22 @@
+uuid: b078aa7d-1ed3-49d2-bf25-f5d965842ec3
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - artisan_starterkit
+_core:
+  default_config_hash: CcyjK_6CLtr9giCgFtml6dyiyyNa0H3oLEMROQFouOk
+id: artisan_starterkit_messages
+theme: artisan_starterkit
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

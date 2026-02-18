@@ -1,0 +1,11 @@
+uuid: b4054fee-6299-4076-8818-83ec0961d00a
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - section_library
+id: section_library_template.token
+label: Token
+description: null
+targetEntityType: section_library_template
+cache: true

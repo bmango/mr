@@ -1,0 +1,23 @@
+uuid: 38f06dd9-32be-46f1-927f-4066b21c5b0f
+langcode: en-gb
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:79a57572-5b27-44d8-a430-a86c33ba8aa7'
+  module:
+    - block_content
+  theme:
+    - mr
+id: mr_sitetitle
+theme: mr
+region: header_top
+weight: 0
+provider: null
+plugin: 'block_content:79a57572-5b27-44d8-a430-a86c33ba8aa7'
+settings:
+  id: 'block_content:79a57572-5b27-44d8-a430-a86c33ba8aa7'
+  label: 'Site Title'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

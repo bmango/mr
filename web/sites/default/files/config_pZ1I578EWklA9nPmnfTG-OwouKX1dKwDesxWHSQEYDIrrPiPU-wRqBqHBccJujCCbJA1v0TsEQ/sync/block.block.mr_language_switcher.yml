@@ -1,0 +1,22 @@
+uuid: 12156d6c-0f4d-4f00-8675-b74d5fa8fdcf
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - mr
+_core:
+  default_config_hash: cJbbsL9i5eur1x6X9hInNCwlX4knC8NwLTQUMKOSE24
+id: mr_language_switcher
+theme: mr
+region: navigation_end
+weight: -5
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: ccd3ca96-558e-4dfd-bb55-536cd4892f6b
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - mr
+_core:
+  default_config_hash: 6S8yeE9O61DlR9EDXL3hEqM7fG5M--qjE6W0prNPSZ4
+id: mr_primary_local_tasks
+theme: mr
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

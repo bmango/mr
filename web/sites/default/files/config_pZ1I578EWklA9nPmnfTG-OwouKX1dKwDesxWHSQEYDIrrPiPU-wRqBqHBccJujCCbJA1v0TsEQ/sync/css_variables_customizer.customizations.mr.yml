@@ -1,0 +1,61 @@
+custom: {  }
+customizations:
+  -
+    id: global
+    overrides:
+      '--theme-base':
+        -
+          value: 'oklch(0.7 0.1076 231.35)'
+          selector: ':root, :host'
+      '--theme-base-content-soft':
+        -
+          value: 'oklch(0.7 0.1 255)'
+          selector: ':root, :host'
+      '--theme-primary':
+        -
+          value: 'oklch(0.7 0.1 255)'
+          selector: ':root, :host'
+      '--theme-secondary-content':
+        -
+          value: 'oklch(0.7 0.1 255)'
+          selector: ':root, :host'
+      '--theme-info':
+        -
+          value: 'oklch(0.7 0.1 255)'
+          selector: ':root, :host'
+      '--theme-info-content':
+        -
+          value: 'oklch(0.7 0.1 255)'
+          selector: ':root, :host'
+      '--theme-success':
+        -
+          value: 'oklch(0.7 0.1 255)'
+          selector: ':root, :host'
+      '--theme-success-content':
+        -
+          value: 'oklch(0.7 0.1 255)'
+          selector: ':root, :host'
+      '--theme-warning':
+        -
+          value: 'oklch(0.7 0.1 255)'
+          selector: ':root, :host'
+      '--theme-warning-content':
+        -
+          value: 'oklch(0.7 0.1 255)'
+          selector: ':root, :host'
+      '--theme-container-width-sm':
+        -
+          value: 20rem
+          selector: ':root, :host'
+      '--theme-container-width-md':
+        -
+          value: 30rem
+          selector: ':root, :host'
+      '--theme-container-width-lg':
+        -
+          value: 40rem
+          selector: ':root, :host'
+      '--theme-container-width':
+        -
+          value: 50rem
+          selector: ':root, :host'

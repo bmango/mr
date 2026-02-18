@@ -1,0 +1,26 @@
+uuid: a176b235-1877-4c88-8008-cc341100ef6e
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.full_html
+    - node.type.layout
+  module:
+    - text
+id: node.layout.body
+field_name: body
+entity_type: node
+bundle: layout
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - full_html
+field_type: text_with_summary

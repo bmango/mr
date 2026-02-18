@@ -1,0 +1,26 @@
+uuid: 255cd5d7-5117-41d5-81c4-5a0c9b7c6e04
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mr
+_core:
+  default_config_hash: _gLd5731gvjeSaJFXOlc_ubkmRwh9sUwfTmQbNKQSLw
+id: mr_breadcrumbs
+theme: mr
+region: content
+weight: -3
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/user/*'

@@ -1,0 +1,22 @@
+uuid: d3dc020e-7185-40c9-992b-f39a89ed8710
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - artisan
+_core:
+  default_config_hash: DaRDAEfaw62mVoZ_-4_9jbeEbDsscnuBBNOheFAv1KU
+id: artisan_content
+theme: artisan
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

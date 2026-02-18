@@ -1,0 +1,14 @@
+uuid: 8eaadb46-5444-451d-a899-d5eb95dea6ad
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - info@moneyrebellion.earth
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

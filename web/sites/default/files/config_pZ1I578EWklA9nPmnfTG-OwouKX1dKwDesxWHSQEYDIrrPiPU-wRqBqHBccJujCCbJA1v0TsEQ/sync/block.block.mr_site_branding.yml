@@ -1,0 +1,25 @@
+uuid: 79956d86-6a1a-4623-8041-37d5efa52901
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mr
+_core:
+  default_config_hash: Lo84JCr7GUEIVdxSN2qRtd_pTfO4kyNtLG7M-L2mnoI
+id: mr_site_branding
+theme: mr
+region: navigation_start
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
